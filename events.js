@@ -15,4 +15,6 @@ customEventEmitter.emit('responseType','large')
 //Note: EventEmitter is a built in property in events module
 //and we are defining our customevent using new EventEmitter instance
 //here for different listeners the custom event should be different and we can define our own events like response and responseType
-//
+//on: for listening
+//emit: for responsing
+//emit should come after you have listened all or after all "on" instances
