@@ -25,9 +25,10 @@
 // }
 
 // getFile('./myfile.txt','utf-8').then((result)=>{ console.log(result)}).catch((err)=>{console.log(err)})
-// const {readFile,writeFile} = require('fs')
 
 // //using async-await
+
+// const {readFile,writeFile} = require('fs')
 // const getFile = (path)=>{
 //     return new Promise((resolve,reject)=>{
 
