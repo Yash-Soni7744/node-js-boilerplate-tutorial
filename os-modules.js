@@ -19,3 +19,5 @@ totalMemory: os.totalmem(),
 freeMemory: os.freemem(),
 getPrior: os.getPriority()}
 console.log(currentOS)
+
+//use nodemon to get the updated result
